@@ -1,0 +1,212 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* line 5, /home/vedad/Desktop/main_folder/app/assets/stylesheets/subs.scss */
+.sub-list {
+  margin: auto;
+  margin-top: 30px;
+}
+
+/* line 10, /home/vedad/Desktop/main_folder/app/assets/stylesheets/subs.scss */
+.sub-item {
+  padding: 20px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  background-color: #0293b6;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  border: 2px solid #01303f;
+  box-shadow: 5px 5px 5px #0293b6;
+}
+
+/* line 25, /home/vedad/Desktop/main_folder/app/assets/stylesheets/subs.scss */
+.post-item {
+  margin-top: 10px;
+  text-align: center;
+  background-color: #0293b6;
+  border: 2px solid #01303f;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  font-weight: 600;
+  height: auto;
+}
+
+/* line 38, /home/vedad/Desktop/main_folder/app/assets/stylesheets/subs.scss */
+.post-list {
+  text-align: center;
+  width: 80%;
+  margin-top: 40px;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 48, /home/vedad/Desktop/main_folder/app/assets/stylesheets/subs.scss */
+.post-item-title {
+  font-size: 25px;
+}
+
+/* line 56, /home/vedad/Desktop/main_folder/app/assets/stylesheets/subs.scss */
+.sub-header {
+  text-align: center;
+  width: 90%;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  background-color: #0293b6;
+  border-radius: 20px;
+  border: 2px solid #01303f;
+  padding: 5px;
+  color: white;
+  font-weight: 600;
+}
+
+/* line 72, /home/vedad/Desktop/main_folder/app/assets/stylesheets/subs.scss */
+.search-input {
+  border: 2px solid #01303f;
+  background: #e4f2f8;
+  height: 25px;
+  display: flex;
+  margin: auto;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #01303f;
+  font-weight: 600;
+}
+
+/* line 85, /home/vedad/Desktop/main_folder/app/assets/stylesheets/subs.scss */
+.search-input:focus {
+  outline: none;
+}
+
+/* line 89, /home/vedad/Desktop/main_folder/app/assets/stylesheets/subs.scss */
+.create-post {
+  padding: 10px;
+  display: flex;
+  width: 4.9%;
+  margin: auto;
+  border-radius: 20px;
+  border: 2px solid #01303f;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* line 100, /home/vedad/Desktop/main_folder/app/assets/stylesheets/subs.scss */
+.sub-form, .post-form {
+  background-color: #02577a;
+  text-align: center;
+  margin-top: 250px;
+  border: 2px solid #01303f;
+  width: 50%;
+  padding: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  border-radius: 5px;
+}
+
+/* line 113, /home/vedad/Desktop/main_folder/app/assets/stylesheets/subs.scss */
+.sub_title, .sub_description, .post_title, .post_body, .sub_location {
+  margin-bottom: 15px;
+  width: 90%;
+  border-radius: 20px;
+  border: 2px solid #01303f;
+  padding: 5px;
+  background-color: #e4f2f8;
+  font-size: 25px;
+}
+
+/* line 123, /home/vedad/Desktop/main_folder/app/assets/stylesheets/subs.scss */
+.sub_title, .sub_description, .post_title, .post_body, .sub_location:focus {
+  outline: none;
+}
+
+/* line 127, /home/vedad/Desktop/main_folder/app/assets/stylesheets/subs.scss */
+.sub_title {
+  height: 30px;
+}
+
+/* line 131, /home/vedad/Desktop/main_folder/app/assets/stylesheets/subs.scss */
+.sub_description {
+  height: 120px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+/* line 17, /home/vedad/Desktop/main_folder/app/assets/stylesheets/application.scss */
+.nav {
+  list-style: none;
+  display: flex;
+  font-weight: 600;
+  color: #02577a;
+}
+
+/* line 25, /home/vedad/Desktop/main_folder/app/assets/stylesheets/application.scss */
+.nav li {
+  padding: 10px;
+  margin-left: 15px;
+  border-radius: 20px;
+  border: 2px solid #01303f;
+}
+
+/* line 33, /home/vedad/Desktop/main_folder/app/assets/stylesheets/application.scss */
+html {
+  background-color: #e4f2f8;
+  font-family: Arial;
+  font-weight: 600;
+}
+
+/* line 39, /home/vedad/Desktop/main_folder/app/assets/stylesheets/application.scss */
+.nav-links {
+  text-decoration: none;
+}
+
+/* line 43, /home/vedad/Desktop/main_folder/app/assets/stylesheets/application.scss */
+.nav li:hover {
+  background: #e6e6ff;
+}
+
+/* line 47, /home/vedad/Desktop/main_folder/app/assets/stylesheets/application.scss */
+a:visited {
+  color: #02577a;
+}
+
+/* line 51, /home/vedad/Desktop/main_folder/app/assets/stylesheets/application.scss */
+::placeholder {
+  color: #01303f;
+  font-family: Arial;
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+/* line 58, /home/vedad/Desktop/main_folder/app/assets/stylesheets/application.scss */
+:-ms-input-placeholder {
+  color: #01303f;
+  font-family: Arial;
+}
+
+/* line 63, /home/vedad/Desktop/main_folder/app/assets/stylesheets/application.scss */
+::-ms-input-placeholder {
+  color: #01303f;
+  font-family: Arial;
+}
