@@ -52769,3 +52769,132 @@ Processing by Api::PostsController#index as JSON
 Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/" for ::1 at 2020-11-19 18:23:52 -0800
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vedad/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by SubsController#root as HTML
+  Rendering subs/root.html within layouts/application
+  Rendered subs/root.html within layouts/application (0.6ms)
+Completed 200 OK in 625ms (Views: 624.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/subs" for ::1 at 2020-11-19 18:23:53 -0800
+Processing by Api::SubsController#index as JSON
+  Rendering api/subs/index.json.jbuilder
+  [1m[36mSub Load (0.5ms)[0m  [1m[34mSELECT "subs".* FROM "subs"[0m
+  ↳ app/views/api/subs/index.json.jbuilder:1
+  Rendered api/subs/index.json.jbuilder (10.0ms)
+Completed 200 OK in 13ms (Views: 8.1ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/" for ::1 at 2020-11-19 18:24:17 -0800
+Processing by SubsController#root as HTML
+  Rendering subs/root.html within layouts/application
+  Rendered subs/root.html within layouts/application (0.4ms)
+Completed 200 OK in 67ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/subs" for ::1 at 2020-11-19 18:24:17 -0800
+Processing by Api::SubsController#index as JSON
+  Rendering api/subs/index.json.jbuilder
+  [1m[36mSub Load (0.4ms)[0m  [1m[34mSELECT "subs".* FROM "subs"[0m
+  ↳ app/views/api/subs/index.json.jbuilder:1
+  Rendered api/subs/index.json.jbuilder (2.1ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2020-11-19 18:24:31 -0800
+Processing by SubsController#root as HTML
+  Rendering subs/root.html within layouts/application
+  Rendered subs/root.html within layouts/application (0.3ms)
+Completed 200 OK in 42ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/subs" for ::1 at 2020-11-19 18:24:31 -0800
+Processing by Api::SubsController#index as JSON
+  Rendering api/subs/index.json.jbuilder
+  [1m[36mSub Load (0.3ms)[0m  [1m[34mSELECT "subs".* FROM "subs"[0m
+  ↳ app/views/api/subs/index.json.jbuilder:1
+  Rendered api/subs/index.json.jbuilder (1.8ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-11-19 18:24:55 -0800
+Processing by SubsController#root as HTML
+  Rendering subs/root.html within layouts/application
+  Rendered subs/root.html within layouts/application (0.3ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/subs" for ::1 at 2020-11-19 18:24:55 -0800
+Processing by Api::SubsController#index as JSON
+  Rendering api/subs/index.json.jbuilder
+  [1m[36mSub Load (0.2ms)[0m  [1m[34mSELECT "subs".* FROM "subs"[0m
+  ↳ app/views/api/subs/index.json.jbuilder:1
+  Rendered api/subs/index.json.jbuilder (1.6ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/subs/Pics" for ::1 at 2020-11-19 18:24:59 -0800
+Started GET "/api/posts?sub_identifier=Pics" for ::1 at 2020-11-19 18:24:59 -0800
+Processing by Api::SubsController#show as JSON
+  Parameters: {"sub_title"=>"Pics"}
+  [1m[36mSub Load (0.3ms)[0m  [1m[34mSELECT  "subs".* FROM "subs" WHERE "subs"."sub_title" = $1 LIMIT $2[0m  [["sub_title", "Pics"], ["LIMIT", 1]]
+  ↳ app/controllers/api/subs_controller.rb:8
+  Rendering api/subs/show.json.jbuilder
+  Rendered api/subs/show.json.jbuilder (0.5ms)
+Completed 200 OK in 8ms (Views: 2.4ms | ActiveRecord: 0.5ms)
+
+
+Processing by Api::PostsController#index as JSON
+  Parameters: {"sub_identifier"=>"Pics"}
+  Rendering api/posts/index.json.jbuilder
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."sub_identifier" = $1[0m  [["sub_identifier", "Pics"]]
+  ↳ app/views/api/posts/index.json.jbuilder:1
+  Rendered api/posts/index.json.jbuilder (8.6ms)
+Completed 200 OK in 15ms (Views: 8.2ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/" for ::1 at 2020-11-19 18:25:42 -0800
+Processing by SubsController#root as HTML
+  Rendering subs/root.html within layouts/application
+  Rendered subs/root.html within layouts/application (0.6ms)
+Completed 200 OK in 74ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/subs/Pics" for ::1 at 2020-11-19 18:25:42 -0800
+Started GET "/api/posts?sub_identifier=Pics" for ::1 at 2020-11-19 18:25:42 -0800
+Processing by Api::PostsController#index as JSON
+  Parameters: {"sub_identifier"=>"Pics"}
+  Rendering api/posts/index.json.jbuilder
+Processing by Api::SubsController#show as JSON
+  [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."sub_identifier" = $1[0m  [["sub_identifier", "Pics"]]
+  Parameters: {"sub_title"=>"Pics"}
+  ↳ app/views/api/posts/index.json.jbuilder:1
+  Rendered api/posts/index.json.jbuilder (3.0ms)
+  [1m[36mSub Load (0.7ms)[0m  [1m[34mSELECT  "subs".* FROM "subs" WHERE "subs"."sub_title" = $1 LIMIT $2[0m  [["sub_title", "Pics"], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.9ms)
+
+
+  ↳ app/controllers/api/subs_controller.rb:8
+  Rendering api/subs/show.json.jbuilder
+  Rendered api/subs/show.json.jbuilder (0.4ms)
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-11-19 18:25:46 -0800
+Processing by SubsController#root as HTML
+  Rendering subs/root.html within layouts/application
+  Rendered subs/root.html within layouts/application (0.7ms)
+Completed 200 OK in 54ms (Views: 52.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/subs" for ::1 at 2020-11-19 18:25:46 -0800
+Processing by Api::SubsController#index as JSON
+  Rendering api/subs/index.json.jbuilder
+  [1m[36mSub Load (0.3ms)[0m  [1m[34mSELECT "subs".* FROM "subs"[0m
+  ↳ app/views/api/subs/index.json.jbuilder:1
+  Rendered api/subs/index.json.jbuilder (3.7ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.3ms)
+
+
