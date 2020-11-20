@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reddit on React</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+
+    
+  </head>
+  <div>
+    <ul class="nav">
+      <a href="/" class="nav-links"><li>All Subs</li></a>
+      <a href="/#/subs/create" class="nav-links"><li>Create Sub</li></a>
+      <li>Blah</li>
+    </ul>
+  </div>
+  <body>
+    
+    <%= yield %>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+json.extract! @post, :sub_title, :sub_description
