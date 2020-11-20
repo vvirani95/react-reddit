@@ -5,6 +5,7 @@
 ### Ruby ###
 *.gem
 *.rbc
+*.yml
 /.config
 /coverage/
 /InstalledFiles
